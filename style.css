@@ -1,0 +1,309 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: phototime
+	Template URI: http://www.kmsaif120.com
+	Description: photo related template
+	Author: saif
+	Author URI: http://www.kmsaif120.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------**/
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+header {
+	background-color: #86509c;
+	color:white;
+}
+
+
+header ul li {
+	font-size:13px;
+	justify-content: end;
+	display: flex;
+
+}
+header .nav img {
+	margin-right:20px;
+}
+header ul li a {
+	border: 2px solid transparent;
+	transition: .5s;
+
+}
+header ul li a:hover {
+	border: 2px solid #65b4a9;
+
+}
+
+.header-mid h3 {
+	font-size: 20px;
+}
+.header-mid .btn {
+	color:white;
+	background-color: #ec7c4a;
+	font-size: 13px;
+	padding: 12px 35px;
+	border-radius: 2px;
+	border: 1px solid transparent;
+	transition: .5s;
+}
+.header-mid .btn:hover {
+	background-color: white;
+	border: 1px solid #65b4a9;
+	color: black;
+}
+.services-area {
+	background-color: #17c1a4;
+}
+
+.services-area article {
+	width: 23%;
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.services-area hr {
+	width: 5%;
+	border-bottom: 1px solid;
+}
+.services-area p {
+	color: white;
+	font-size: 11px;
+}
+.services-area span {
+	color: white;
+	font-size: 11px;
+	width: 60%;
+}
+.services-area article h4 {
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600px;
+	margin-top: 20px;
+}
+.services-area article img {
+	width: auto;
+	height: 70px;
+}
+
+
+.team-area {
+	background-color: #e8f1f8;
+}
+.team-area h2 {
+	color: #3f4867;
+}
+.team-area article {
+	width: 23%;
+}
+.team-area hr {
+	width: 10%;
+	border-bottom: 1px solid;
+}
+.team-area p {
+	font-size: 11px;
+	color:#3f4867
+}
+.team-area span {
+	font-size: 11px;
+	width: 60%;
+	color: #7c8693;
+}
+.team-area article h4 {
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600px;
+	margin-top: 20px;
+	color: #3a3e4e;
+}
+.team-area article img {
+	width: 60%;
+	height:auto ;
+}
+
+.team-area small {
+	font-size: 10px;
+	color: teal;
+}
+.team-area .social-icon i {
+	font-size: 12px;
+	padding: 5px;
+	border: 1px solid #e8f1f8;
+	border-radius: 50%;
+	background-color: #bed1e0;
+	color:white;
+	margin-top: 15px;
+	transition: .5s;
+}
+.team-area .social-icon i:hover {
+	background-color: #3d549a;
+}
+
+.portfolio-area {
+	background-color: #ffdc9a;
+}
+.portfolio-area .second {
+	color:black;
+	background:#e7c28a;
+	text-transform: uppercase;
+	font-size: 10px;
+	border-radious: 1px;
+}
+.portfolio-area .first {
+	background-color: white;
+	border-radious: 1px;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+.portfolio-area hr {
+	width: 10%;
+	border-bottom: 1px solid;
+}
+.portfolio-area p {
+	font-size: 11px;
+}
+.portfolio-area .display img {
+	height: auto;
+	width: 94%;
+}
+.portfolio-area .display small {
+	margin-top: 12px;
+	font-size: 10px;
+}
+.portfolio-area .bottom-btn .btn {
+	color: white;
+    background-color:#17c1a4;
+    font-size: 13px;
+    padding: 12px 35px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+	transition: .5s;
+	letter-spacing: 1px;
+	margin: 60px 0 60px 0;
+}
+.portfolio-area .bottom-btn .btn:hover {
+	color:#17c1a4;
+	background:black;
+	border: 1px solid #65b4a9;
+}
+
+.about-us {
+	background-color: #d6477f;
+	overflow: hidden;
+}
+.about-us hr {
+	width: 10%;
+	border-bottom: 1px solid #3d549a;
+}
+.about-us img {
+	display: inline-block;
+}
+.about-us p {
+	font-size: 11px;
+	font-weight: normal;
+	color:white;
+}
+.about-us .aboutus-collage p {
+	font-style: italic;
+	margin-left: 10px;
+}
+.about-us .aboutus-collage span {
+	font-weight: bold;
+}
+.about-us .aboutus-collage small {
+	color:#f0ae95;
+	font-size: 8px;
+	font-weight: bold;
+}
+/* about us area ends */
+
+/* message area starts */
+.messege-area hr{
+	width: 10%;
+	border-bottom: 3px solid;
+	color: #243971;
+}
+.messege-area{
+	background: #3d549a;
+}
+.messege-area input{
+	width: 38%;
+	background: #263971;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-size: 12px;
+	padding: 9px 11px;
+	border-radius: 2px;
+	border: 0;
+}
+.messege-area span{
+	color: white;
+	font-size: 12px;
+	display: block;
+	margin-bottom: 10px;
+}
+.messege-area h2{
+	color: white;
+}
+.messege-area textarea{
+	width: 77%;
+	border: 0;
+	background: #263971;
+	margin-top: 15px;
+	border-radius: 2px;
+	color: white;
+	text-transform: capitalize;
+	font-size: 12px;
+	padding: 11px 60px 60px 11px;
+}
+.messege-area button{
+	padding: 10px 50px 10px 50px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 2px;
+	border: 2px solid transparent;
+	margin-bottom: 70px;
+}
+.messege-area button:hover{
+	background: #d6477f;
+	border: 2px solid #285969;
+}
+/* message area ends */
+
+/* footer area starts */
+footer{
+	background: #344b8f;
+}
+footer .social-area a{
+	color: white;
+	margin: 0px 16px;
+	font-size: 14px;
+	text-decoration: none;
+	padding-bottom: 10px;
+	border-bottom: 1px solid transparent;
+	transition: .5s;
+
+}
+footer .social-area a:hover{
+	color:#17a2b8;
+	border-bottom: 1px solid white;
+
+}
+/* footer area ends */
+
+
+
+
